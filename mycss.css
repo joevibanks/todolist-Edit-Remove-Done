@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&family=Montserrat:wght@500&family=PT+Sans&display=swap');
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    margin: auto;
+    
+}
+.container {
+    width: 70%;
+    min-width: 200px;
+    background-color: aliceblue;
+    min-height: 100px;
+    border-radius: 10px;
+    margin-top: 20%;
+    margin-bottom: 20px;
+    position: sticky;
+
+   
+}
+#write_task {
+    position: relative;
+    padding: 30px 20px;
+}
+
+#write_task input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    border-radius: 10px;
+    font-family: 'Dancing Script' sans-serif;
+    font-size: 16px;
+    
+
+}
+
+#write_task input:focus{
+    outline: none;
+    border-color: aqua;
+}
+
+#write_task button{
+    position: relative;
+    float: right;
+    width: 15%;
+    height: 45px;
+    border-radius: 5px;
+    font-family:'Dancing Script' sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background-color: aqua;
+    
+
+}
+
+#write_task button:active{
+    background-color: white;
+}
+
+li{
+    background-color:rgb(15, 104, 74);
+    display: flex;
+    border-radius: 10px;
+    margin: 3px;
+    
+}
+.task_name{
+    padding: 15px;
+    
+}
+.btn{
+   margin: 10px;
+}
+.btn-success{
+    position: fixed;
+    left: 85%;
+}
+.btn-danger{
+    position: fixed;
+    left: 68%;
+    margin-right:10px;
+}
+.btn-group {
+    display: flex !important;
+    justify-content:space-between !important;
+}
+
+.remove_button, .done_button {
+    background: rgb(0, 15, 15);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px  ;
+    padding: 8px;
+    font-family: 'Dancing Script' sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: aqua;
+    
+   
+}
+.edit_input{
+    max-height: 300px;
+    border-radius: 5px;
+    margin: 5px, 10px;
+
+}
+.save_button{
+    background: rgb(0, 15, 15);
+    color: aqua;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Dancing Script' sans-serif;
+
+}
+.remove_button button:active{
+    background-color: white !important;
+}
+input{
+    font-family: 'Dancing Script' sans-serif;
+}
+.span_card{
+    text-align: left;
+
+}
+.fa, .fa-pen-to-square{
+    
+    float: right;
+    margin: 5px;
+    cursor: pointer;
+} 
+
+
+    
